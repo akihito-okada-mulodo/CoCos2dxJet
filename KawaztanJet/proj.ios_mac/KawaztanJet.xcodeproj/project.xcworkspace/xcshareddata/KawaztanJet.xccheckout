@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0FDFB6DC-0029-431B-ADF2-CB46C2260FFB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KawaztanJet</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A6DBBBF3066FA7AB0673774D3C288EEA3A9312AB</key>
+		<string>github.com:akihito-okada-mulodo/CoCos2dxJet.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KawaztanJet/proj.ios_mac/KawaztanJet.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A6DBBBF3066FA7AB0673774D3C288EEA3A9312AB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:akihito-okada-mulodo/CoCos2dxJet.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A6DBBBF3066FA7AB0673774D3C288EEA3A9312AB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A6DBBBF3066FA7AB0673774D3C288EEA3A9312AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoCos2dxJet</string>
+		</dict>
+	</array>
+</dict>
+</plist>
