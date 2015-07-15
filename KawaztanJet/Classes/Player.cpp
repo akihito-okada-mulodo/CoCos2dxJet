@@ -55,5 +55,10 @@ bool Player::init()
 
 void Player::update(float dt)
 {
-    
+    this->getPhysicsBody()->applyImpulse(_acceleration);
+    auto v = this->getPhysicsBody()->getVelocity();
+    if (v.x > VELOCITY_LIMIT) {
+        v.x = VELOCITY_LIMIT;
+        this->getPhysicsBody()->setVelocity(v);
+    }
 }

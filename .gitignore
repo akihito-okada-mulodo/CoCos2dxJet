@@ -6,9 +6,8 @@
 
 # XCode
 *.moved-aside
-build/*
-Build/*
-KawaztanJet/proj.ios_mac/Build/*
+build/
+Build/
 *.xcworkspace
 *.mode1v3
 *.mode2v3
@@ -20,6 +19,7 @@ KawaztanJet/proj.ios_mac/Build/*
 *.perspectivev3
 profile
 xcuserdata
+xcuserdata/
 .idea/*
 
 #Cocoa pods

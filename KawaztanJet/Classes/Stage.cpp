@@ -58,6 +58,8 @@ bool Stage::init()
     this->addChild(player);
     this->setPlayer(player);
     
+    
+    
     return true;
 }
 

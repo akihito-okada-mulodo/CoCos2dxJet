@@ -40,8 +40,6 @@ bool MainScene::init()
     
     this->setStage(stage);
     
-    this->scheduleUpdate();
-    
     auto listener = EventListenerTouchOneByOne::create();
     
     listener->onTouchBegan = [this](Touch *touch, Event *event)
@@ -54,6 +52,15 @@ bool MainScene::init()
     {
         this->setIsPress(false);
     };
+    
+    listener->onTouchCancelled = [this](Touch *touch, Event *event)
+    {
+        this->setIsPress(false);
+    };
+    
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
+    
+    this->scheduleUpdate();
     
     return true;
 }
@@ -89,5 +96,8 @@ Scene* MainScene::createScene()
 
 void MainScene::update(float dt)
 {
-    
+    if (this->getIsPress()) {
+        // プレイヤーに上方向の推進力を与える
+        _stage->getPlayer()->getPhysicsBody()->applyImpulse(INPULSE_ACCELERATION);
+    }
 }
